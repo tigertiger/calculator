@@ -23,8 +23,7 @@ $(document).ready(function() {
     const result = add(number1, number2);
     $("#output").text(result);
   });
-});
-$(document).ready(function() {
+
   $("form#subtract").submit(function(event) {
     console.log("script executing!")
     event.preventDefault();
